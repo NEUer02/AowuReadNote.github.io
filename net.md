@@ -60,7 +60,7 @@
 
 首先发送HTTP动词，再发送URI，下一行紧跟消息头，再经过一个空行后，为从客户端发向服务器的数据。  
 
-![](/Users/pangaowu/Documents/GitHub/AowuReadNote.github.io/data/picture/net/请求消息.png)
+![请求消息](./data/picture/net/请求消息.png)
 
 URI一般是存放网页数据的文件名或者一个CGI程序。 
 
@@ -80,7 +80,7 @@ URI一般是存放网页数据的文件名或者一个CGI程序。
 
 当我们将上述的请求消息发出后，Web服务器会返回一个响应消息。第六章会有更加详细的解释，这里将简单的介绍一下。响应消息的格式与请求消息大同小异。具体格式如图所示：
 
-![](/Users/pangaowu/Documents/GitHub/AowuReadNote.github.io/data/picture/net/响应消息.png)
+![响应消息](./data/picture/net/响应消息.png)
 
 这里需要注意，在请求消息中，HTTP版本在最后面，而在响应消息中，HTTP版本在最前面。
 
