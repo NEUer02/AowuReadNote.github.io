@@ -9,7 +9,7 @@
 
 ## 计算机系统：
 
-[《深入了解计算机系统》](./computer_system.md)
+[《深入了解计算机系统》](./computer_system_index.md)
 
 ## 数学
 
