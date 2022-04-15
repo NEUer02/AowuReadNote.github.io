@@ -1,3 +1,15 @@
+<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
+
 # 深入理解计算机系统
 
 参考书目：《深入理解计算机系统》 兰德尔 E. 布莱恩特
@@ -98,7 +110,7 @@ GCC在编译源文件时需要经过四个步骤：预处理器(cpp)，编译器
 
 虚拟内存时进程开起来实在独享主存一样。每个进程看到的内存都是一致的，称之为虚拟地址空间。
 
-![](E:\Github\repository\AowuReadNote.github.io\data\picture\computer_system\进程的虚拟地址空间.jpg)
+![](..\data\picture\computer_system\进程的虚拟地址空间.jpg)
 
 堆和栈的区别：
 
